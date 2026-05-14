@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is a local-only Phase 4 scaffold for public-safe data/model infrastructure planning.
+This repository is a published Phase 4 public scaffold for public-safe data/model infrastructure planning.
 
 ## Operating Rules
 
@@ -13,6 +13,5 @@ This repository is a local-only Phase 4 scaffold for public-safe data/model infr
 ## Current Posture
 
 Status: scaffolded
-Publication state: local-only
+Publication state: public scaffold
 Release state: not released
-

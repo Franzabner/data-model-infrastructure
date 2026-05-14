@@ -1,16 +1,16 @@
 # Status
 
 Status: scaffolded
-Publication state: local-only
+Publication state: public scaffold
 Release state: not released
 
 | Item | State |
 | --- | --- |
 | Local scaffold | scaffolded |
-| Public GitHub repo | not created |
+| Public GitHub repo | published scaffold |
 | First artifact | `source-capture/public-safe-source-to-model-workflow.md` scaffolded |
-| Remote | none |
-| Published artifact | private/not-public |
+| Remote | origin configured |
+| Published artifact | scaffolded |
 | Released artifact | not released |
 | Profile routing | planned |
 | Proof-stack routing | planned |

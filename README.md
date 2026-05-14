@@ -1,12 +1,12 @@
 # Data Model Infrastructure
 
 Status: scaffolded
-Publication state: local-only
+Publication state: public scaffold
 Release state: not released
 
 ## What This Repo Is
 
-`data-model-infrastructure` is a local-only Phase 4 scaffold for public-safe data/model infrastructure architecture and templates. It covers source capture, OCR/extraction, metadata, normalization, deduplication, chunking, quality scoring, database insertion, vector indexing, dataset versioning, fine-tuning content generation, evaluation boundaries, cards, RAG substrates, artifact storage, and DGX workflow boundaries.
+`data-model-infrastructure` is a published Phase 4 public scaffold for public-safe data/model infrastructure architecture and templates. It covers source capture, OCR/extraction, metadata, normalization, deduplication, chunking, quality scoring, database insertion, vector indexing, dataset versioning, fine-tuning content generation, evaluation boundaries, cards, RAG substrates, artifact storage, and DGX workflow boundaries.
 
 ## What This Repo Is Not
 
@@ -17,10 +17,11 @@ This repo is not a model release, dataset release, Hugging Face Space, private t
 | Field | Value |
 | --- | --- |
 | Status | scaffolded |
-| Publication state | local-only |
+| Publication state | public scaffold |
 | Release state | not released |
-| Public GitHub repo | not created |
+| Public GitHub repo | published scaffold |
 | First artifact | `source-capture/public-safe-source-to-model-workflow.md` scaffolded |
+| Published artifact | scaffolded |
 | Profile routing | planned |
 | Proof-stack routing | planned |
 | Hugging Face metadata | not changed |
@@ -72,7 +73,7 @@ Eval templates may define report structure and review questions. They do not cla
 
 ## Forgejo / GitHub Provenance
 
-Forgejo is canonical private source where private or sealed source applies. GitHub can host public-safe scaffolds after review. This local scaffold does not create a public GitHub repo or change metadata.
+Forgejo is canonical private source where private or sealed source applies. GitHub hosts this public scaffold after review. This repo does not change Hugging Face metadata.
 
 ## Hugging Face Release-Surface Discipline
 
@@ -84,8 +85,8 @@ This repository contains public-safe data/model infrastructure architecture and 
 
 ## Links Back After Public Creation
 
-After later human approval and public creation, this repo may be linked from `Franzabner` and `franzabner-proof-stack` as a scaffolded public proof surface only. It must not be marked released or proof-complete.
+Profile routing and proof-stack routing are planned. Any `Franzabner` or `franzabner-proof-stack` link must be handled in a separate reviewed routing patch. This repo must not be marked released or proof-complete.
 
 ## First Build Task
 
-Completed as a scaffolded local artifact: `source-capture/public-safe-source-to-model-workflow.md`. It includes a problem statement, synthetic source context, source-to-model workflow, Mermaid workflow diagram, validation questions, what this proves, what this does not prove, public/private/sealed checklist, and `Status: scaffolded`.
+Published artifact: scaffolded. `source-capture/public-safe-source-to-model-workflow.md` includes a problem statement, synthetic source context, source-to-model workflow, Mermaid workflow diagram, validation questions, what this proves, what this does not prove, public/private/sealed checklist, and `Status: scaffolded`.
