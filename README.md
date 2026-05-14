@@ -20,6 +20,7 @@ This repo is not a model release, dataset release, Hugging Face Space, private t
 | Publication state | local-only |
 | Release state | not released |
 | Public GitHub repo | not created |
+| First artifact | `source-capture/public-safe-source-to-model-workflow.md` scaffolded |
 | Profile routing | planned |
 | Proof-stack routing | planned |
 | Hugging Face metadata | not changed |
@@ -87,5 +88,4 @@ After later human approval and public creation, this repo may be linked from `Fr
 
 ## First Build Task
 
-Create or complete `source-capture/public-safe-source-to-model-workflow.md` with the public-safe source-to-model workflow, Mermaid diagram, validation questions, what this proves, what this does not prove, boundary checklist, and `Status: scaffolded`.
-
+Completed as a scaffolded local artifact: `source-capture/public-safe-source-to-model-workflow.md`. It includes a problem statement, synthetic source context, source-to-model workflow, Mermaid workflow diagram, validation questions, what this proves, what this does not prove, public/private/sealed checklist, and `Status: scaffolded`.
