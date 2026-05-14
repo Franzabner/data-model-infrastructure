@@ -1,0 +1,7 @@
+flowchart LR
+  A["Synthetic/public-safe"] --> B["Allowed scaffold"]
+  C["Private/not-public"] --> D["Hold"]
+  E["Sealed"] --> D
+  D --> F["No public release"]
+  B --> G["Human review before routing"]
+

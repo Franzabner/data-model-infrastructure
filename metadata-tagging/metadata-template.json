@@ -1,0 +1,10 @@
+{
+  "status": "scaffolded",
+  "artifact_id": "synthetic-artifact-001",
+  "source_class": "synthetic-public-safe",
+  "rights_posture": "review-required",
+  "boundary_class": "public-safe",
+  "quality_score": "not-scored",
+  "review_state": "planned"
+}
+
