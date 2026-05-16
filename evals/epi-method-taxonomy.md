@@ -45,3 +45,16 @@ This taxonomy is not:
 ## Review Boundary
 
 Human review is required before any public artifact uses this taxonomy to support a stronger claim about method performance, model behavior, dataset suitability, EPI improvement, measured energy reduction, or external release activity.
+
+## Batch 6 Legacy Context
+
+The legacy `energy-per-intelligence`, `epi-bench`, `hf-card-templates`, and `fine-tuning-lab-notes` repositories may be used only as historical context for public-safe vocabulary. They are not architecture-defining sources.
+
+| Legacy context | Reusable public-safe vocabulary | Boundary |
+| --- | --- | --- |
+| `energy-per-intelligence` | EPI framing, method-family labels, claim-gate categories, and synthetic field names. | No evaluated score, hardware behavior, workload assumption, or artifact publication claim. |
+| `epi-bench` | Benchmark-scaffold boundaries, synthetic report sections, and no-output status language. | No executable harness proof, output table, raw trace, or workload identity. |
+| `hf-card-templates` | Card-template status fields and release-readiness review gates. | No external artifact existence, hosted card, or release-surface activity. |
+| `fine-tuning-lab-notes` | Synthetic run-note sections, dataset-boundary fields, and evaluation-note placeholders. | No corpus, model path, run log, adapter, weight file, prompt, or result value. |
+
+Future EPI documents should cite this umbrella taxonomy, not the legacy repos, when naming public-safe method families.

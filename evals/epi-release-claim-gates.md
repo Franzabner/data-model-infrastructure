@@ -54,3 +54,17 @@ Use these public-safe statuses unless a later human-reviewed release packet appr
 ## Review Rule
 
 If a future artifact attempts to move from scaffold language to evidence language, stop and route it through public boundary review before publication.
+
+## Batch 6 Release-Readiness Gates
+
+Reusable release-readiness material from legacy EPI and card-template repos is limited to gate structure. It may define who must review a claim, what evidence would be required later, and what public status language is allowed now.
+
+| Gate | Allowed scaffold wording | Stop condition |
+| --- | --- | --- |
+| Artifact existence | Template or scaffold only. | Any statement that a model, dataset, Space, card, report, or evaluated artifact exists outside this repo. |
+| External release surface | Separate human release review required. | Any metadata change, external link, hosted artifact, or publication event. |
+| Benchmark posture | No validated benchmark; no public output table. | Any result comparison, ranking, trace, score, or workload-specific statement. |
+| Fine-tuning posture | Synthetic note template only. | Any corpus, model path, adapter, weight file, training log, prompt, or run-specific statement. |
+| EPI posture | Method vocabulary and field names only. | Any measured energy value, EPI score, hardware behavior claim, or proof language. |
+
+These gates supersede standalone legacy routing for EPI release-readiness language.
