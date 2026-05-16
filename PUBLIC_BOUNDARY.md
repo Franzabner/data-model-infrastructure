@@ -10,6 +10,7 @@ Status: scaffolded
 - Dataset-card and model-card templates.
 - DVC, vector-index, object-storage, and cache boundary notes.
 - Fine-tuning, eval, RAG, and DGX workflow boundary templates.
+- EPI method taxonomy and release-claim gate notes that remain scaffolded, generic, and non-evidence.
 
 ## Private / Sealed Exclusions
 
@@ -18,4 +19,3 @@ This repository contains public-safe data/model infrastructure architecture and 
 ## Release Boundary
 
 `released` is not authorized in this scaffold. Any future model, dataset, Space, card, collection, or metadata publication requires separate release-surface review.
-
